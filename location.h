@@ -1,0 +1,13 @@
+#ifndef LOCATION_H
+#define LOCATION_H
+
+#include <string>
+using namespace std;
+
+struct Location {
+    string name;
+    double x;
+    double y;
+};
+
+#endif
